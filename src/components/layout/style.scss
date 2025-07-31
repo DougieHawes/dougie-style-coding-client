@@ -1,0 +1,23 @@
+@import "../../display/style/variables";
+
+.header {
+  @include header-height;
+  border-bottom: 2px solid $colour3;
+  display: flex;
+  justify-content: space-between;
+  .header-title-box {
+    padding-left: $padding1;
+    .header-title {
+      .header-initial {
+        color: $colour4;
+        font-size: 42px;
+      }
+    }
+  }
+}
+
+.mode-toggle {
+  cursor: pointer;
+  font-size: 30px;
+  padding: 5px $padding1;
+}

@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Futura";
+  src: url("../fonts/FuturaPTBook.otf");
+}
+
+$colour1: #3b2f2f;
+$colour2: #f8f8f8;
+$colour3: #128482;
+$colour4: #d0491e;
+
+$font1: "Futura";
+
+$header-height: 42px;
+
+$padding1: 14px;
+
+@mixin screen-height {
+  max-height: 100vh;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+@mixin header-height {
+  max-height: $header-height;
+  min-height: $header-height;
+}
