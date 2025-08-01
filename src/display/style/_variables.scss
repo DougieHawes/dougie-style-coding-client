@@ -12,15 +12,10 @@ $font1: "Futura";
 
 $header-height: 42px;
 
-$padding1: 14px;
+$padding1: 2%;
 
 @mixin screen-height {
   max-height: 100vh;
   min-height: 100vh;
   overflow: hidden;
-}
-
-@mixin header-height {
-  max-height: $header-height;
-  min-height: $header-height;
 }
